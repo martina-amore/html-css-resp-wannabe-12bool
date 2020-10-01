@@ -80,12 +80,6 @@ img {
         margin-top: 100px;
     }
 
-    .box::after {
-      content: '';
-      display: table;
-      clear: both;
-    }
-
     #why.box img {
       background-color: #428bca;
       border-radius: 50%;
@@ -96,13 +90,12 @@ img {
         background-color: #f9f9f9;
     }
 
-    #why.box > .first,
-    #why.box > .second,
-    #why.box > .third {
+    #why.box .first,
+    #why.box .second,
+    #why.box .third {
       margin-top: 80px;
     }
 }
-
 
 /* CSS MEDIA QUERY 768 < x > 991 */
 @media screen and (min-width: 769px) and (max-width: 992px) {
@@ -134,14 +127,14 @@ img {
         background-color: #c2ecff
     }
 
-    #lezioni.box > .left,
-    #lezioni.box > .right {
+    #lezioni.box .left,
+    #lezioni.box .right {
         margin-top: 30px;
     }
 
-    #steps.box > .left,
-    #steps.box > .central,
-    #steps.box > .right {
+    #steps.box .left,
+    #steps.box .central,
+    #steps.box .right {
         margin-top: 30px;
     }
 
@@ -149,15 +142,15 @@ img {
         background-color: #c2ecff;
     }
 
-    #why.box > .first,
-    #why.box > .second,
-    #why.box > .third {
+    #why.box .first,
+    #why.box .second,
+    #why.box .third {
         margin-top: 30px;
     }
 
-    #lezioni.box > .right,
-    #steps.box > .right,
-    #why.box > .third {
+    #lezioni.box .right,
+    #steps.box .right,
+    #why.box .third {
         margin-bottom: 15px;
     }
 
@@ -169,12 +162,6 @@ img {
       background-color: #428bca;
       border-radius: 50%;
       padding: 20px;
-    }
-
-    .box::after {
-      content: '';
-      display: table;
-      clear: both;
     }
 }
 
@@ -208,14 +195,14 @@ img {
         background-color: #f2f2cd;
     }
 
-    #lezioni.box > .left,
-    #lezioni.box > .right {
+    #lezioni.box .left,
+    #lezioni.box .right {
         margin-top: 20px;
     }
 
-    #steps.box > .left,
-    #steps.box > .central,
-    #steps.box > .right {
+    #steps.box .left,
+    #steps.box .central,
+    #steps.box .right {
         margin-top: 20px;
     }
 
@@ -223,15 +210,15 @@ img {
         background-color: #f2f2cd;
     }
 
-    #why.box > .first,
-    #why.box > .second,
-    #why.box > .third {
+    #why.box .first,
+    #why.box .second,
+    #why.box .third {
         margin-top: 20px;
     }
 
-    #lezioni.box > .right,
-    #steps.box > .right,
-    #why.box > .third {
+    #lezioni.box .right,
+    #steps.box .right,
+    #why.box .third {
         margin-bottom: 5px;
     }
 
@@ -243,11 +230,5 @@ img {
       background-color: #428bca;
       border-radius: 50%;
       padding: 15px;
-    }
-
-    .box::after {
-      content: '';
-      display: table;
-      clear: both;
     }
 }
