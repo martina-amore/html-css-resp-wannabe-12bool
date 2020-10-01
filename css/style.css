@@ -95,7 +95,14 @@ img {
     #steps.box, #why.box {
         background-color: #f9f9f9;
     }
+
+    #why.box > .first,
+    #why.box > .second,
+    #why.box > .third {
+      margin-top: 80px;
+    }
 }
+
 
 /* CSS MEDIA QUERY 768 < x > 991 */
 @media screen and (min-width: 769px) and (max-width: 992px) {
